@@ -22,7 +22,7 @@ namespace FineUIMvc.EmptyProject.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult btnHello_Click()
         {
-            Alert.Show("你妹 FineUI！", MessageBoxIcon.Warning);
+            Alert.Show("你妹的 FineUI！", MessageBoxIcon.Warning);
 
             return UIHelper.Result();
         }
